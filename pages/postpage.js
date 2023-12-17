@@ -1,10 +1,10 @@
 import React from 'react'
-
 import {useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 
 export default function PostPage() {
   const { id } = useParams();
+  
   const [post, setPost] = useState(null);
 
   useEffect(() => {
@@ -26,8 +26,8 @@ export default function PostPage() {
             <div className="spinner-border"
                  style={{width: '3rem', height: '3rem',}}
                  role="status">
-              <span className="visually-hidden">Loading...</span>
-            </div>
+            //   <span className="visually-hidden">Loading...</span>
+            // </div>
         )}
       </div>
   )

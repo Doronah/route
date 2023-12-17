@@ -6,11 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import Posts from './pages/posts';
 import Admin from './pages/admin';
 import Contact from './pages/contact';
-import Post from './pages/post';
 import ContactPage from './pages/contactpage';
 import Home from './pages/home';
 import PostPage from './pages/postpage';
-import NewPostForm from './pages/new-post-form';
+import NewPostForm from './pages/newPostForm';
 
 import {
   createBrowserRouter,

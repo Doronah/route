@@ -2,10 +2,10 @@ import React from 'react'
 import PostCard from './postcard';
 
 
-export default function PostLIst({ feed }) {
+export default function PostLIst({ posts }) {
   return (
       <div>
-        {feed.map((post) => <PostCard singlePost={post} />)}
+        {posts.map((post) => <PostCard key={post.id} post={post} />)}
       </div>
   );
 }
